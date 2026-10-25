@@ -1,0 +1,25 @@
+{
+  "accuracy": 0.8325320034417969,
+  "balanced_accuracy": 0.15316349530558684,
+  "attack_false_negative_rate": 0.8763229571984436,
+  "benign_false_positive_rate": 0.002262840979707288,
+  "attack_detection_recall": 0.12367704280155642,
+  "attack_classification_error_rate": 0.9174319066147859,
+  "weighted_precision": 0.702541139583571,
+  "weighted_recall": 0.8325320034417969,
+  "weighted_f1": 0.7611849470931058,
+  "macro_precision": 0.13584881657467476,
+  "macro_recall": 0.15316349530558684,
+  "macro_f1": 0.14253441499538264,
+  "loss": 0.70555095791509,
+  "interpretation": "Unweighted mean over local-only client models on the common test set.",
+  "macro_f1_std_across_clients": 0.037925559965401194,
+  "training_seconds": 3.4422399000031874,
+  "optimizer_steps": 1562,
+  "majority_baseline_test_accuracy": 0.8194812720599856,
+  "missing_raw_classes": [
+    "Web_Attack"
+  ],
+  "label_scope_satisfied": true,
+  "full_objective_data_coverage": false
+}

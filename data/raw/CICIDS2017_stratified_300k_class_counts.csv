@@ -1,0 +1,9 @@
+Class,Records,Percentage
+Benign,240925,80.3083
+DoS,26779,8.9263
+DDoS,13570,4.5233
+PortScan,16845,5.615
+Brute Force,1626,0.542
+Bot,208,0.0693
+Infiltration,36,0.012
+Heartbleed,11,0.0037
