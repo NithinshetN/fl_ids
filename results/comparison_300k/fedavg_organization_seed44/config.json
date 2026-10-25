@@ -1,0 +1,15 @@
+{
+  "algorithm": "fedavg",
+  "mode": "organization",
+  "seed": 44,
+  "clients": 5,
+  "alpha": 0.3,
+  "rounds": 10,
+  "local_epochs": 1,
+  "batch_size": 256,
+  "lr": 0.01,
+  "mu": 0.01,
+  "noise": 0,
+  "clip_norm": 0.1,
+  "delta": 1e-05
+}

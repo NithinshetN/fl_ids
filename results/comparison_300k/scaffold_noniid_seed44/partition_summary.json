@@ -1,0 +1,88 @@
+{
+  "mode": "noniid",
+  "seed": 44,
+  "alpha": 0.3,
+  "empty_client_repairs": 0,
+  "organization_profile_scheme": null,
+  "clients": {
+    "0": {
+      "profile": "noniid",
+      "rows": 2752,
+      "class_counts": {
+        "Benign": 1937,
+        "DoS": 670,
+        "DDoS": 24,
+        "PortScan": 11,
+        "Brute_Force": 23,
+        "Bot": 87,
+        "Infiltration": 0,
+        "Heartbleed": 0
+      },
+      "total_variation_from_global": 0.20433393224807603
+    },
+    "1": {
+      "profile": "noniid",
+      "rows": 19608,
+      "class_counts": {
+        "Benign": 12958,
+        "DoS": 6245,
+        "DDoS": 12,
+        "PortScan": 296,
+        "Brute_Force": 50,
+        "Bot": 43,
+        "Infiltration": 4,
+        "Heartbleed": 0
+      },
+      "total_variation_from_global": 0.24606779466544546
+    },
+    "2": {
+      "profile": "noniid",
+      "rows": 157739,
+      "class_counts": {
+        "Benign": 146255,
+        "DoS": 4074,
+        "DDoS": 7040,
+        "PortScan": 0,
+        "Brute_Force": 359,
+        "Bot": 0,
+        "Infiltration": 11,
+        "Heartbleed": 0
+      },
+      "total_variation_from_global": 0.1077153719666739
+    },
+    "3": {
+      "profile": "noniid",
+      "rows": 10934,
+      "class_counts": {
+        "Benign": 2179,
+        "DoS": 0,
+        "DDoS": 2104,
+        "PortScan": 6633,
+        "Brute_Force": 0,
+        "Bot": 2,
+        "Infiltration": 10,
+        "Heartbleed": 6
+      },
+      "total_variation_from_global": 0.6991075749799864
+    },
+    "4": {
+      "profile": "noniid",
+      "rows": 8281,
+      "class_counts": {
+        "Benign": 5,
+        "DoS": 3754,
+        "DDoS": 319,
+        "PortScan": 3743,
+        "Brute_Force": 445,
+        "Bot": 13,
+        "Infiltration": 0,
+        "Heartbleed": 2
+      },
+      "total_variation_from_global": 0.8281390085273008
+    }
+  },
+  "mean_total_variation_from_global": 0.41707273647749654,
+  "missing_organization_attacks": [
+    "Web_Attack"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "mode": "organization",
+  "seed": 43,
+  "alpha": 0.3,
+  "empty_client_repairs": 0,
+  "organization_profile_scheme": [
+    "dos",
+    "ddos",
+    "brute_force",
+    "botnet",
+    "mixed"
+  ],
+  "clients": {
+    "0": {
+      "profile": "dos",
+      "rows": 45651,
+      "class_counts": {
+        "Benign": 32704,
+        "DoS": 11874,
+        "DDoS": 480,
+        "PortScan": 541,
+        "Brute_Force": 44,
+        "Bot": 8,
+        "Infiltration": 0,
+        "Heartbleed": 0
+      },
+      "total_variation_from_global": 0.1861351185568669
+    },
+    "1": {
+      "profile": "ddos",
+      "rows": 41491,
+      "class_counts": {
+        "Benign": 32584,
+        "DoS": 750,
+        "DDoS": 7589,
+        "PortScan": 513,
+        "Brute_Force": 45,
+        "Bot": 7,
+        "Infiltration": 3,
+        "Heartbleed": 0
+      },
+      "total_variation_from_global": 0.13524866794031434
+    },
+    "2": {
+      "profile": "brute_force",
+      "rows": 35180,
+      "class_counts": {
+        "Benign": 32729,
+        "DoS": 685,
+        "DDoS": 495,
+        "PortScan": 555,
+        "Brute_Force": 706,
+        "Bot": 9,
+        "Infiltration": 1,
+        "Heartbleed": 0
+      },
+      "total_variation_from_global": 0.1265170418560677
+    },
+    "3": {
+      "profile": "botnet",
+      "rows": 34297,
+      "class_counts": {
+        "Benign": 32444,
+        "DoS": 703,
+        "DDoS": 454,
+        "PortScan": 535,
+        "Brute_Force": 46,
+        "Bot": 113,
+        "Infiltration": 2,
+        "Heartbleed": 0
+      },
+      "total_variation_from_global": 0.12905838519254553
+    },
+    "4": {
+      "profile": "mixed",
+      "rows": 42695,
+      "class_counts": {
+        "Benign": 32873,
+        "DoS": 731,
+        "DDoS": 481,
+        "PortScan": 8539,
+        "Brute_Force": 36,
+        "Bot": 8,
+        "Infiltration": 19,
+        "Heartbleed": 8
+      },
+      "total_variation_from_global": 0.14686798061889111
+    }
+  },
+  "mean_total_variation_from_global": 0.14476543883293713,
+  "missing_organization_attacks": [
+    "Web_Attack"
+  ]
+}

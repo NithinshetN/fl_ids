@@ -1,0 +1,214 @@
+{
+  "dataset_metadata": {
+    "schema_version": 3,
+    "source_files": [
+      {
+        "file": "CICIDS2017_stratified_300k.csv",
+        "sha256": "1d4b568699a351206578dcddec455e9980a166e612cbd713ef9ac2b55be4af62"
+      }
+    ],
+    "input_rows": 300000,
+    "ignored_auxiliary_csv_files": [],
+    "input_label_counts": {
+      "Benign": 240925,
+      "DoS": 26779,
+      "PortScan": 16845,
+      "DDoS": 13570,
+      "Brute Force": 1626,
+      "Bot": 208,
+      "Infiltration": 36,
+      "Heartbleed": 11
+    },
+    "label_scope": "project8",
+    "required_class_names": [
+      "Benign",
+      "DoS",
+      "DDoS",
+      "PortScan",
+      "Brute_Force",
+      "Bot",
+      "Infiltration",
+      "Heartbleed"
+    ],
+    "label_scope_satisfied": true,
+    "missing_scope_classes": [],
+    "class_to_id": {
+      "Benign": 0,
+      "DoS": 1,
+      "DDoS": 2,
+      "PortScan": 3,
+      "Brute_Force": 4,
+      "Bot": 5,
+      "Infiltration": 6,
+      "Heartbleed": 7
+    },
+    "training_majority_class": "Benign",
+    "majority_baseline_test_accuracy": 0.8194812720599856,
+    "invalid_rows_removed": 290,
+    "exact_duplicates_removed": 14941,
+    "conflicting_rows_removed": 34,
+    "requested_sample_size": 0,
+    "sampled_rows": 284735,
+    "seed": 42,
+    "class_names": [
+      "Benign",
+      "DoS",
+      "DDoS",
+      "PortScan",
+      "Brute_Force",
+      "Bot",
+      "Infiltration",
+      "Heartbleed"
+    ],
+    "feature_names": [
+      "Destination Port",
+      "Flow Duration",
+      "Total Fwd Packets",
+      "Total Backward Packets",
+      "Total Length of Fwd Packets",
+      "Total Length of Bwd Packets",
+      "Fwd Packet Length Max",
+      "Fwd Packet Length Min",
+      "Fwd Packet Length Mean",
+      "Fwd Packet Length Std",
+      "Bwd Packet Length Max",
+      "Bwd Packet Length Min",
+      "Bwd Packet Length Mean",
+      "Bwd Packet Length Std",
+      "Flow Bytes/s",
+      "Flow Packets/s",
+      "Flow IAT Mean",
+      "Flow IAT Std",
+      "Flow IAT Max",
+      "Flow IAT Min",
+      "Fwd IAT Total",
+      "Fwd IAT Mean",
+      "Fwd IAT Std",
+      "Fwd IAT Max",
+      "Fwd IAT Min",
+      "Bwd IAT Total",
+      "Bwd IAT Mean",
+      "Bwd IAT Std",
+      "Bwd IAT Max",
+      "Bwd IAT Min",
+      "Fwd PSH Flags",
+      "Fwd URG Flags",
+      "Fwd Header Length",
+      "Bwd Header Length",
+      "Fwd Packets/s",
+      "Bwd Packets/s",
+      "Min Packet Length",
+      "Max Packet Length",
+      "Packet Length Mean",
+      "Packet Length Std",
+      "Packet Length Variance",
+      "FIN Flag Count",
+      "SYN Flag Count",
+      "RST Flag Count",
+      "PSH Flag Count",
+      "ACK Flag Count",
+      "URG Flag Count",
+      "CWE Flag Count",
+      "ECE Flag Count",
+      "Down/Up Ratio",
+      "Average Packet Size",
+      "Avg Fwd Segment Size",
+      "Avg Bwd Segment Size",
+      "Subflow Fwd Packets",
+      "Subflow Fwd Bytes",
+      "Subflow Bwd Packets",
+      "Subflow Bwd Bytes",
+      "Init_Win_bytes_forward",
+      "Init_Win_bytes_backward",
+      "act_data_pkt_fwd",
+      "min_seg_size_forward",
+      "Active Mean",
+      "Active Std",
+      "Active Max",
+      "Active Min",
+      "Idle Mean",
+      "Idle Std",
+      "Idle Max",
+      "Idle Min"
+    ],
+    "n_features": 69,
+    "train_constant_features_removed": [
+      "Bwd PSH Flags",
+      "Bwd URG Flags",
+      "Fwd Avg Bytes/Bulk",
+      "Fwd Avg Packets/Bulk",
+      "Fwd Avg Bulk Rate",
+      "Bwd Avg Bytes/Bulk",
+      "Bwd Avg Packets/Bulk",
+      "Bwd Avg Bulk Rate"
+    ],
+    "splits": {
+      "train": {
+        "rows": 199314,
+        "class_counts": {
+          "Benign": 163334,
+          "DoS": 14743,
+          "DDoS": 9499,
+          "PortScan": 10683,
+          "Brute_Force": 877,
+          "Bot": 145,
+          "Infiltration": 25,
+          "Heartbleed": 8
+        }
+      },
+      "validation": {
+        "rows": 28474,
+        "class_counts": {
+          "Benign": 23334,
+          "DoS": 2106,
+          "DDoS": 1357,
+          "PortScan": 1526,
+          "Brute_Force": 125,
+          "Bot": 21,
+          "Infiltration": 4,
+          "Heartbleed": 1
+        }
+      },
+      "test": {
+        "rows": 56947,
+        "class_counts": {
+          "Benign": 46667,
+          "DoS": 4212,
+          "DDoS": 2714,
+          "PortScan": 3052,
+          "Brute_Force": 251,
+          "Bot": 42,
+          "Infiltration": 7,
+          "Heartbleed": 2
+        }
+      }
+    },
+    "full_objective_data_coverage": false,
+    "missing_raw_classes": [
+      "Web_Attack"
+    ],
+    "legacy_merged_labels": false,
+    "notes": [
+      "Infiltration has 36 rows; interpret rare-class metrics cautiously.",
+      "Heartbleed has 11 rows; interpret rare-class metrics cautiously."
+    ],
+    "sampling": "Proportional after cleaning/deduplication; minimum 3 per class where available.",
+    "privacy_scope": "Offline benchmark preprocessing uses pooled training statistics; not end-to-end DP.",
+    "split_sha256": {
+      "train": "981c60d5e711a597df9f14d5743b4ecda33444bd4a489bc99fc31de3112bca24",
+      "validation": "f29ffccfcbcd8913b55eb0db72c76129bad93c4ddca6e78f2f575477ff0da052",
+      "test": "3a9c38c53ad98f15a31bb4b376be9260b7cde5ab814dd9fa3da1a2e9a6149ed3"
+    }
+  },
+  "initial_weight_sha256": "778bcc74cf19068a7c511f09c4468968449993e12c1ad903da6a96342ee8fb44",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "torch": "2.5.1",
+    "flwr": "1.20.0",
+    "scikit-learn": "1.5.2"
+  },
+  "budget": "Each training row is visited rounds * local_epochs times; optimizer-step counts differ by partition.",
+  "selection": "Fixed final round; validation curves are diagnostic. Test evaluated only after training.",
+  "federation": "Sequential client simulation; Flower FedAvg strategy; no network isolation or privacy boundary."
+}

@@ -1,0 +1,14 @@
+{
+  "noise_multiplier": 1.0,
+  "delta": 1e-05,
+  "rho": 1.0,
+  "conditional_epsilon_bound": 7.786140424415112,
+  "rounds_composed": 2,
+  "adjacency": "Replace all records of one client; fixed roster and uniform client weights.",
+  "mechanism": "Gaussian noise std = noise_multiplier * 2 * clip_norm / n_clients",
+  "trust": "Trusted aggregator observes unclipped client updates; no secure aggregation.",
+  "accounting_scope": "All released global rounds within this one run; no subsampling amplification.",
+  "conditions": "Fixed/public preprocessing, feature schema, partitions, initialization and evaluation set.",
+  "end_to_end_dp_claim": false,
+  "limitation": "Pooled preprocessing, data-dependent partitioning, metadata and nonprivate baselines are not DP. This is a benchmark mechanism study; epsilon is conditional, not a guarantee for all outputs. Releasing multiple runs needs composition across runs. NumPy noise is research software, not a hardened DP sampler."
+}

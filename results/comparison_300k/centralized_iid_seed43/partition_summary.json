@@ -1,0 +1,88 @@
+{
+  "mode": "iid",
+  "seed": 43,
+  "alpha": 0.3,
+  "empty_client_repairs": 0,
+  "organization_profile_scheme": null,
+  "clients": {
+    "0": {
+      "profile": "iid",
+      "rows": 39862,
+      "class_counts": {
+        "Benign": 32667,
+        "DoS": 2949,
+        "DDoS": 1900,
+        "PortScan": 2136,
+        "Brute_Force": 175,
+        "Bot": 29,
+        "Infiltration": 5,
+        "Heartbleed": 1
+      },
+      "total_variation_from_global": 3.897367770764334e-05
+    },
+    "1": {
+      "profile": "iid",
+      "rows": 39862,
+      "class_counts": {
+        "Benign": 32666,
+        "DoS": 2949,
+        "DDoS": 1900,
+        "PortScan": 2136,
+        "Brute_Force": 175,
+        "Bot": 29,
+        "Infiltration": 5,
+        "Heartbleed": 2
+      },
+      "total_variation_from_global": 2.7545436645187643e-05
+    },
+    "2": {
+      "profile": "iid",
+      "rows": 39864,
+      "class_counts": {
+        "Benign": 32667,
+        "DoS": 2949,
+        "DDoS": 1899,
+        "PortScan": 2137,
+        "Brute_Force": 176,
+        "Bot": 29,
+        "Infiltration": 5,
+        "Heartbleed": 2
+      },
+      "total_variation_from_global": 4.117977764270144e-05
+    },
+    "3": {
+      "profile": "iid",
+      "rows": 39862,
+      "class_counts": {
+        "Benign": 32667,
+        "DoS": 2948,
+        "DDoS": 1900,
+        "PortScan": 2137,
+        "Brute_Force": 175,
+        "Bot": 29,
+        "Infiltration": 5,
+        "Heartbleed": 1
+      },
+      "total_variation_from_global": 3.8564869947877664e-05
+    },
+    "4": {
+      "profile": "iid",
+      "rows": 39864,
+      "class_counts": {
+        "Benign": 32667,
+        "DoS": 2948,
+        "DDoS": 1900,
+        "PortScan": 2137,
+        "Brute_Force": 176,
+        "Bot": 29,
+        "Infiltration": 5,
+        "Heartbleed": 2
+      },
+      "total_variation_from_global": 3.695471977005026e-05
+    }
+  },
+  "mean_total_variation_from_global": 3.664369634269207e-05,
+  "missing_organization_attacks": [
+    "Web_Attack"
+  ]
+}

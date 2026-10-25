@@ -1,0 +1,72 @@
+[
+  {
+    "round": 1,
+    "validation_loss": 1.525170251945854,
+    "validation_accuracy": 0.8194844419470394,
+    "validation_macro_f1": 0.11259844039530574,
+    "validation_weighted_f1": 0.7381813607316329
+  },
+  {
+    "round": 2,
+    "validation_loss": 1.0460379219309721,
+    "validation_accuracy": 0.8194844419470394,
+    "validation_macro_f1": 0.11259844039530574,
+    "validation_weighted_f1": 0.7381813607316329
+  },
+  {
+    "round": 3,
+    "validation_loss": 0.7257019458815498,
+    "validation_accuracy": 0.8194844419470394,
+    "validation_macro_f1": 0.11259844039530574,
+    "validation_weighted_f1": 0.7381813607316329
+  },
+  {
+    "round": 4,
+    "validation_loss": 0.577522536664479,
+    "validation_accuracy": 0.8667556367212194,
+    "validation_macro_f1": 0.21026798993955875,
+    "validation_weighted_f1": 0.8154302469671859
+  },
+  {
+    "round": 5,
+    "validation_loss": 0.502940285161463,
+    "validation_accuracy": 0.8714968041019878,
+    "validation_macro_f1": 0.21299147031502125,
+    "validation_weighted_f1": 0.8208070644300082
+  },
+  {
+    "round": 6,
+    "validation_loss": 0.45695954001484906,
+    "validation_accuracy": 0.8716021633771159,
+    "validation_macro_f1": 0.21149935973317963,
+    "validation_weighted_f1": 0.8210340480410262
+  },
+  {
+    "round": 7,
+    "validation_loss": 0.42432462029504986,
+    "validation_accuracy": 0.8789070731193369,
+    "validation_macro_f1": 0.24663694999946248,
+    "validation_weighted_f1": 0.8371092983904231
+  },
+  {
+    "round": 8,
+    "validation_loss": 0.39743157528990264,
+    "validation_accuracy": 0.883437521949849,
+    "validation_macro_f1": 0.26244333153505484,
+    "validation_weighted_f1": 0.8452634651362505
+  },
+  {
+    "round": 9,
+    "validation_loss": 0.3739730214406125,
+    "validation_accuracy": 0.8883542881224977,
+    "validation_macro_f1": 0.27694607780617564,
+    "validation_weighted_f1": 0.8530754638041108
+  },
+  {
+    "round": 10,
+    "validation_loss": 0.3527609103096246,
+    "validation_accuracy": 0.8900400365245487,
+    "validation_macro_f1": 0.2815227559987211,
+    "validation_weighted_f1": 0.8556300715561558
+  }
+]

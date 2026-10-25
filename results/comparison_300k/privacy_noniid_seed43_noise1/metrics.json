@@ -1,0 +1,180 @@
+{
+  "accuracy": 0.7730345760092718,
+  "balanced_accuracy": 0.2677386434388903,
+  "attack_false_negative_rate": 0.5276264591439689,
+  "benign_false_positive_rate": 0.1484560824565539,
+  "attack_detection_recall": 0.4723735408560311,
+  "attack_classification_error_rate": 0.5833657587548639,
+  "confusion_matrix": [
+    [
+      39739,
+      154,
+      263,
+      6405,
+      0,
+      0,
+      1,
+      105
+    ],
+    [
+      2713,
+      1252,
+      2,
+      245,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2572,
+      127,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      0,
+      0,
+      3031,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      78,
+      0,
+      0,
+      171,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      33,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      5,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "class_names": [
+    "Benign",
+    "DoS",
+    "DDoS",
+    "PortScan",
+    "Brute_Force",
+    "Bot",
+    "Infiltration",
+    "Heartbleed"
+  ],
+  "classification_report": {
+    "Benign": {
+      "precision": 0.8799016894360427,
+      "recall": 0.8515439175434462,
+      "f1-score": 0.8654905804203419,
+      "support": 46667.0
+    },
+    "DoS": {
+      "precision": 0.8156351791530945,
+      "recall": 0.2972459639126306,
+      "f1-score": 0.4357055855228815,
+      "support": 4212.0
+    },
+    "DDoS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2714.0
+    },
+    "PortScan": {
+      "precision": 0.30693670886075947,
+      "recall": 0.9931192660550459,
+      "f1-score": 0.4689409762512571,
+      "support": 3052.0
+    },
+    "Brute_Force": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 251.0
+    },
+    "Bot": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 42.0
+    },
+    "Infiltration": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "Heartbleed": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "accuracy": 0.7730345760092718,
+    "macro avg": {
+      "precision": 0.25030919718123706,
+      "recall": 0.2677386434388903,
+      "f1-score": 0.22126714277431006,
+      "support": 56947.0
+    },
+    "weighted avg": {
+      "precision": 0.7978400679745672,
+      "recall": 0.7730345760092718,
+      "f1-score": 0.7666119146261842,
+      "support": 56947.0
+    }
+  },
+  "weighted_precision": 0.7978400679745672,
+  "weighted_recall": 0.7730345760092718,
+  "weighted_f1": 0.7666119146261842,
+  "macro_precision": 0.25030919718123706,
+  "macro_recall": 0.2677386434388903,
+  "macro_f1": 0.22126714277431006,
+  "macro_definition": "All configured classes, including zero-support classes (zero_division=0).",
+  "loss": 1.10834584696763,
+  "conditional_epsilon_bound": 20.17427129385146,
+  "training_seconds": 3.2905864999629557,
+  "optimizer_steps": 7820,
+  "majority_baseline_test_accuracy": 0.8194812720599856,
+  "missing_raw_classes": [
+    "Web_Attack"
+  ],
+  "label_scope_satisfied": true,
+  "full_objective_data_coverage": false
+}

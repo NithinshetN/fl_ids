@@ -1,0 +1,16 @@
+[
+  {
+    "round": 1,
+    "validation_loss": 1.989935411197496,
+    "validation_accuracy": 0.27586570204396993,
+    "validation_macro_f1": 0.0840248964262122,
+    "validation_weighted_f1": 0.3586782457346615
+  },
+  {
+    "round": 2,
+    "validation_loss": 1.9927548521513048,
+    "validation_accuracy": 0.41715248999086885,
+    "validation_macro_f1": 0.09727753841437091,
+    "validation_weighted_f1": 0.5146864322490116
+  }
+]
